@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QAt</title>
+    <link rel="stylesheet" href="studp.css"/>
+    <style>
+        
+        .thumbnail {
+            width: 150px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .thumbnail:hover {
+            opacity: 0.7;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .popup img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+        .popup.active {
+            display: flex;
+        }
+        .image_op{
+            width:80%;
+        }
+        .options{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    align-items: start;
+    padding: 3px;
+    margin-bottom: 5px;
+    width:250px;
+    border-radius: 10px;
+    }
+    .inop_img{
+    width:70%;
+    height: 60px;
+}
+    </style>
+    
+</head>
+<body>
+    <div class="logo"><img class="tittle" src="../asserts/Component 3 (3).png" style="width: 100%;height:100%"></div> 
+
+
+    <div  class="palate" style="margin-top: 3%;">
+        <div class="tit"><p>Quiz.1</p></div>
+         <div class="qa">
+             <div class="par"><p class="par_in">rjkehgedgjlddderuitgoasirughps
+                rjkehgedgjlddderuitgoasirughpsrjkehgedgjlddderuitgoasirughps
+                rjkehgedgjlddderuitgoasirughpsrjkehgedgjlddderuitgoasirughps
+                rjkehgedg
+             </p>
+             <div class="image" ><img  src="../asserts/Rectangle 8.png" alt="Option 1 Image" class="thumbnail" data-popup="popup1"></div>
+             <div id="popup1" class="popup">
+                <img src="../asserts/Rectangle 8.png" alt="Option 1 Large Image">
+            </div>
+            </div>
+         </div>  
+         <div class="option_set">
+            
+             <div class="options  op" id="A" >
+                 <div ><input class="option_input" type="checkbox"></div>
+                 <div style="display: flex; align-items: center; justify-content:center;width:100%;text-align: center;"><p style="margin-top: 0;"> blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb 
+                    flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb</p></div>
+                    <div class="image_op" style="width:100%;display:flex;flex-direction: row; align-items: center; justify-content: center;" ><img  src="../asserts/Rectangle 8.png" alt="Option 2 Image" class="thumbnail inop_img" data-popup="popup2"></div> 
+                    <div id="popup2" class="popup">
+                      <img src="../asserts/Rectangle 8.png" alt="Option 2 Large Image">
+                    </div>
+             </div>
+
+             <div class="options op" id="B" >
+                <div ><input class="option_input" type="checkbox"></div>
+                <div style="display: flex; align-items: center; justify-content:center;width:100%;text-align: center;"><p style="margin-top: 0;"> blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb 
+                   flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb</p></div>
+                   <div class="image_op" style="width:100%;display:flex;flex-direction: row; align-items: center; justify-content: center;" ><img  src="../asserts/Rectangle 8.png" alt="Option 2 Image" class="thumbnail inop_img" data-popup="popup2"></div> 
+                   <div id="popup2" class="popup">
+                     <img src="../asserts/Rectangle 8.png" alt="Option 2 Large Image">
+                   </div>
+            </div>
+
+            <div class="options op" id="C" >
+                <div ><input class="option_input" type="checkbox"></div>
+                <div style="display: flex; align-items: center; justify-content:center;width:100%;text-align: center;"><p style="margin-top: 0;"> blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb 
+                   flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb</p></div>
+                   <div class="image_op" style="width:100%;display:flex;flex-direction: row; align-items: center; justify-content: center;" ><img  src="../asserts/Rectangle 8.png" alt="Option 2 Image" class="thumbnail inop_img" data-popup="popup2"></div> 
+                   <div id="popup2" class="popup">
+                     <img src="../asserts/Rectangle 8.png" alt="Option 2 Large Image">
+                   </div>
+            </div>
+
+            <div class="options op" id="D" >
+                <div ><input class="option_input" type="checkbox"></div>
+                <div style="display: flex; align-items: center; justify-content:center;width:100%;text-align: center;"><p style="margin-top: 0;"> blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb blgnflgbnlf flgtbkngtbfb 
+                   flgtbkngtbfb blgnflgbnlf flgtbkngtbfb flgtbkngtbfb</p></div>
+                   <div class="image_op" style="width:100%;display:flex;flex-direction: row; align-items: center; justify-content: center;" ><img  src="../asserts/Rectangle 8.png" alt="Option 2 Image" class="thumbnail inop_img" data-popup="popup2"></div> 
+                   <div id="popup2" class="popup">
+                     <img src="../asserts/Rectangle 8.png" alt="Option 2 Large Image">
+                   </div>
+            </div>
+             
+          
+             
+       
+
+         </div> 
+         
+         
+    </div>
+     <div style="display:flex; flex-direction: row; width:100% ;margin-top: 2%;"><button class="nex last" >Next </button><button class="Sub last" >Submit</button></div>    
+    
+
+    <script>
+        const thumbnails = document.querySelectorAll('.thumbnail');
+
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                const popupId = thumbnail.getAttribute('data-popup');
+                document.getElementById(popupId).classList.add('active');
+            });
+        });
+
+        const popups = document.querySelectorAll('.popup');
+        popups.forEach(popup => {
+            popup.addEventListener('click', () => {
+                popup.classList.remove('active');
+            });
+        });
+    </script>
+
+
+</body>
